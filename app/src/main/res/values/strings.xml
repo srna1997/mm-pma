@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">dnevnik</string>
+
+    <string-array name="roles">
+        <item>"Admin"</item>
+        <item>"Nastavnik"</item>
+        <item>"Učenik"</item>
+    </string-array>
 </resources>

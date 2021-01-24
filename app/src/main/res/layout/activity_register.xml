@@ -4,6 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="20dp"
     tools:context=".RegisterActivity">
 
     <LinearLayout
@@ -30,8 +33,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Ime i prezime"
-            android:inputType="textPersonName"
-             />
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/textView5"
@@ -45,8 +47,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Email"
-            android:inputType="textPersonName"
-             />
+            android:inputType="textPersonName" />
 
         <TextView
             android:id="@+id/textView6"
@@ -60,8 +61,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Lozinka"
-            android:inputType="textPassword"
-             />
+            android:inputType="textPassword" />
 
         <TextView
             android:id="@+id/textView7"
@@ -75,22 +75,24 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Lozinka"
-            android:inputType="textPassword"
-             />
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Izaberite ulogu korisnika" />
+
+        <Spinner
+            android:id="@+id/roleSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <Button
             android:id="@+id/registerBtn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registriraj se"
-             />
+            android:text="Dodaj korisnika" />
 
-        <Button
-            android:id="@+id/loginBtn1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Prijavi se"
-             />
     </LinearLayout>
-
 </androidx.constraintlayout.widget.ConstraintLayout>
